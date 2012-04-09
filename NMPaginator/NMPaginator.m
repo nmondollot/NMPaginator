@@ -76,14 +76,14 @@
         return;
     
     if(![self reachedLastPage])
-        [self fetchPage:self.page+1];
+        [self fetchResultsWithPage:self.page+1 pageSize:self.pageSize];
     
     self.requestStatus = RequestStatusInProgress;
 }
 
 #pragma mark - Sublclass methods
 
-- (void)fetchPage:(NSInteger)page 
+- (void)fetchResultsWithPage:(NSInteger)page pageSize:(NSInteger)pageSize
 {
     // override this in subclass
 }

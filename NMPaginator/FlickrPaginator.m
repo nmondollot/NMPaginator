@@ -20,12 +20,12 @@
 
 # pragma - fetch flickr photos
 
-- (void)fetchPage:(NSInteger)page 
+- (void)fetchResultsWithPage:(NSInteger)page pageSize:(NSInteger)pageSize
 {
     // do request on async thread
     dispatch_queue_t fetchQ = dispatch_queue_create("Flickr fetcher", NULL);
     dispatch_async(fetchQ, ^{
-        NSDictionary *jsonData = [FlickrFetcher photosWithSearchText:@"paginator" page:page pageSize:self.pageSize];
+        NSDictionary *jsonData = [FlickrFetcher photosWithSearchText:@"paginator" page:page pageSize:pageSize];
         
         // go back to main thread before adding results
         dispatch_sync(dispatch_get_main_queue(), ^{
