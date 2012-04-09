@@ -3,7 +3,6 @@
 //  NMPaginator
 //
 //  Created by Nicolas Mondollot on 08/04/12.
-//  Copyright (c) 2012 Voiturelib. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -20,9 +19,17 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    
+    
+    UINavigationController *navigationController = [[UINavigationController alloc]
+                            initWithRootViewController:self.viewController];
+    
+    self.window = [[UIWindow alloc] 
+                   initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window addSubview:navigationController.view];
     [self.window makeKeyAndVisible];
     return YES;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
