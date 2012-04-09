@@ -39,7 +39,7 @@ You will get the results through the delegate method :
 
 ##Screenshots
 
-![NMPaginator with Flickr API](http://cl.ly/1p1R3Z0C1j2L3R411R1D) 
+![NMPaginator with Flickr API](http://f.cl.ly/items/2E0i403V403n1j2y1C1Z/NMPaginator_screenshot.png) 
 
 ##Credits
 
