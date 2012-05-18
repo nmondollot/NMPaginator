@@ -56,7 +56,9 @@
 
 - (BOOL)reachedLastPage
 {
-    return self.page >= (NSInteger)((NSInteger)self.total / (NSInteger)self.pageSize) + 1;
+    if(self.requestStatus == RequestStatusNone) return NO; // if we haven't made a request, we can't know for sure
+    
+    return self.page >= ceil(self.total/self.pageSize);
 }
 
 # pragma - fetch results
