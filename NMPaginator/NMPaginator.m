@@ -58,7 +58,8 @@
 {
     if(self.requestStatus == RequestStatusNone) return NO; // if we haven't made a request, we can't know for sure
     
-    return self.page >= ceil(self.total/self.pageSize);
+    NSInteger totalPages = ceil((float)self.total/(float)self.pageSize); // total number of pages
+    return self.page >= totalPages;
 }
 
 # pragma - fetch results
