@@ -78,10 +78,10 @@
     if(self.requestStatus == RequestStatusInProgress) 
         return;
     
-    if(![self reachedLastPage])
+    if(![self reachedLastPage]) {
+        self.requestStatus = RequestStatusInProgress;
         [self fetchResultsWithPage:self.page+1 pageSize:self.pageSize];
-    
-    self.requestStatus = RequestStatusInProgress;
+    }
 }
 
 #pragma mark - Sublclass methods
