@@ -39,4 +39,8 @@ typedef enum {
 - (void)fetchFirstPage;
 - (void)fetchNextPage;
 
+// call these from subclass when you receive the results
+- (void)receivedResults:(NSArray *)results total:(NSInteger)total;
+- (void)failed;
+
 @end
