@@ -47,12 +47,6 @@ You need to sublass NMPaginator and implement the `fetchResultsWithPage:pageSize
 
 // MyPaginator.m
 #import "MyPaginator.h"
-@interface MyPaginator() {
-}
-- (void)receivedResults:(NSArray *)results total:(NSInteger)total;
-- (void)failed;
-@end
-
 @implementation MyPaginator
 - (void)fetchResultsWithPage:(NSInteger)page pageSize:(NSInteger)pageSize
 {
@@ -64,11 +58,23 @@ You need to sublass NMPaginator and implement the `fetchResultsWithPage:pageSize
 
 ### ViewController
 
-In your ViewController, you can instantiate the paginator like this :
+In your ViewController header file, conform to `NMPaginatorDelegate` protocol and add a property for the paginator :
+```objective-c
+// ViewController.h
+@interface ViewController () <NMPaginatorDelegate>
+@property (nonatomic, strong) MyPaginator *paginator;
+@end
+```
+
+In your ViewController implementation file, instantiate the paginator in viewDidLoad (for instance) :
 
 ```objective-c
 // ViewController.m
-self.myPaginator = [[MyPaginator alloc] initWithPageSize:10 delegate:self];
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    self.myPaginator = [[MyPaginator alloc] initWithPageSize:10 delegate:self];
+}
 ```
 
 And ask for results like this :
