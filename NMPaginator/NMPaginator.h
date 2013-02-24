@@ -21,10 +21,10 @@ typedef enum {
 @end
 
 @interface NMPaginator : NSObject {
-    id <NMPaginatorDelegate> __unsafe_unretained delegate;
+    id <NMPaginatorDelegate> __weak delegate;
 }
 
-@property (unsafe_unretained) id delegate;
+@property (weak) id delegate;
 @property (assign, readonly) NSInteger pageSize; // number of results per page
 @property (assign, readonly) NSInteger page; // number of pages already fetched
 @property (assign, readonly) NSInteger total; // total number of results
