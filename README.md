@@ -13,8 +13,6 @@ The demo project also includes a UITableView that automatically loads the next p
 
 ## Example
 
-The code for the flickr api example is inside the demo project.
-
 ![NMPaginator with Flickr API](http://f.cl.ly/items/2E0i403V403n1j2y1C1Z/NMPaginator_screenshot.png) 
 
 ## How to install
@@ -93,6 +91,8 @@ You will get the results through the delegate method :
     // handle new results
 }
 ```
+
+To make the UITableView work, please have a look at the demo project.
 
 ## Credits
 
