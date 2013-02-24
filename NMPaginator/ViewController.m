@@ -38,7 +38,7 @@
     [self setupTableViewFooter];
     
     // set up the paginator
-    self.flickrPaginator = [[FlickrPaginator alloc] initWithPageSize:10 delegate:self];
+    self.flickrPaginator = [[FlickrPaginator alloc] initWithPageSize:15 delegate:self];
     [self.flickrPaginator fetchFirstPage];
 }
 
