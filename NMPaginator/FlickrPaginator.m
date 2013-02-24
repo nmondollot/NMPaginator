@@ -9,13 +9,6 @@
 #import "FlickrPaginator.h"
 #import "FlickrFetcher.h"
 
-@interface FlickrPaginator() {
-}
-- (void)receivedResults:(NSArray *)results total:(NSInteger)total;
-- (void)failed;
-
-@end
-
 @implementation FlickrPaginator
 
 # pragma - fetch flickr photos

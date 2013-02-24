@@ -8,9 +8,6 @@
 
 @interface NMPaginator() {
 }
-// protected methods
-- (void)receivedResults:(NSArray *)results total:(NSInteger)total;
-- (void)failed;
 
 // protected properties
 @property (assign, readwrite) NSInteger pageSize; 
