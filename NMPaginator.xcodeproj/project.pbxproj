@@ -18,6 +18,7 @@
 		03F51F9E153208F400DD762C /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51F9D153208F400DD762C /* FlickrFetcher.m */; };
 		03F51FA815320E5000DD762C /* FlickrPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51FA715320E5000DD762C /* FlickrPaginator.m */; };
 		03F51FAD1532104A00DD762C /* NMPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51FAC1532104A00DD762C /* NMPaginator.m */; };
+		37E8193316DA4ED4005BD27C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E8193216DA4ED4005BD27C /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		03F51FA715320E5000DD762C /* FlickrPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPaginator.m; sourceTree = "<group>"; };
 		03F51FAB1532104A00DD762C /* NMPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMPaginator.h; sourceTree = "<group>"; };
 		03F51FAC1532104A00DD762C /* NMPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMPaginator.m; sourceTree = "<group>"; };
+		37E8193216DA4ED4005BD27C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		03F51F631531E56500DD762C = {
 			isa = PBXGroup;
 			children = (
+				37E8193216DA4ED4005BD27C /* Default-568h@2x.png */,
 				03F51F991531E86800DD762C /* CoreData.framework */,
 				03F51F781531E56500DD762C /* NMPaginator */,
 				03F51F711531E56500DD762C /* Frameworks */,
@@ -159,7 +162,7 @@
 		03F51F651531E56500DD762C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Nicolas Mondollot";
 			};
 			buildConfigurationList = 03F51F681531E56500DD762C /* Build configuration list for PBXProject "NMPaginator" */;
@@ -186,6 +189,7 @@
 			files = (
 				03F51F7D1531E56500DD762C /* InfoPlist.strings in Resources */,
 				03F51F891531E56500DD762C /* ViewController.xib in Resources */,
+				37E8193316DA4ED4005BD27C /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +237,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -258,6 +266,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -315,6 +327,7 @@
 				03F51F8E1531E56600DD762C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
