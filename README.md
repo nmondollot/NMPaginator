@@ -21,7 +21,7 @@ The demo project also includes a UITableView that automatically loads the next p
 
 Add this to your Podfile:
 ```
-pod 'NMPaginator', '~> 0.0.1'
+pod 'NMPaginator', '~> 1.0.0'
 ```
 
 For more information on how to set up Cocoapods, check out the [official site](http://cocoapods.org/#get_started).
