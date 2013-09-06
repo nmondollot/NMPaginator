@@ -7,15 +7,16 @@
 
 #import <UIKit/UIKit.h>
 #import "FlickrPaginator.h"
+#import "YoutubePaginator.h"
 
-@interface ViewController : UIViewController<NMPaginatorDelegate, UIScrollViewDelegate> {
-    
+@interface ViewController : UIViewController <NMPaginatorDelegate, UIScrollViewDelegate> {
+
 }
 
-@property (nonatomic, strong) IBOutlet UITableView *tableView;
-@property (nonatomic, strong) FlickrPaginator *flickrPaginator;
-
-@property (nonatomic, strong) UILabel *footerLabel;
-@property (nonatomic, strong) UIActivityIndicatorView *activityIndicator;
+@property(nonatomic, strong) IBOutlet UITableView *tableView;
+@property(nonatomic, strong) FlickrPaginator *flickrPaginator;
+@property(nonatomic, strong) YoutubePaginator *youtubePaginator;
+@property(nonatomic, strong) UILabel *footerLabel;
+@property(nonatomic, strong) UIActivityIndicatorView *activityIndicator;
 
 @end

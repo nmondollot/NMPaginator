@@ -18,6 +18,8 @@
 		03F51F9E153208F400DD762C /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51F9D153208F400DD762C /* FlickrFetcher.m */; };
 		03F51FA815320E5000DD762C /* FlickrPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51FA715320E5000DD762C /* FlickrPaginator.m */; };
 		03F51FAD1532104A00DD762C /* NMPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51FAC1532104A00DD762C /* NMPaginator.m */; };
+		330502AF9795A2C2C2E0C703 /* YoutubeFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 33050CDBB342665A8B372044 /* YoutubeFetcher.m */; };
+		330509F6645D939DD656F2F3 /* YoutubePaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 330507C9E1CED17C69A6FAED /* YoutubePaginator.m */; };
 		37E8193316DA4ED4005BD27C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E8193216DA4ED4005BD27C /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,11 @@
 		03F51FA715320E5000DD762C /* FlickrPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPaginator.m; sourceTree = "<group>"; };
 		03F51FAB1532104A00DD762C /* NMPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMPaginator.h; sourceTree = "<group>"; };
 		03F51FAC1532104A00DD762C /* NMPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMPaginator.m; sourceTree = "<group>"; };
+		3305001AD195287D5A995B4D /* YoutubeAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeAPIKey.h; sourceTree = "<group>"; };
+		330502E1422D722E5DDFD7F9 /* YoutubePaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubePaginator.h; sourceTree = "<group>"; };
+		330505CC75593A937E35FAD3 /* YoutubeFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeFetcher.h; sourceTree = "<group>"; };
+		330507C9E1CED17C69A6FAED /* YoutubePaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubePaginator.m; sourceTree = "<group>"; };
+		33050CDBB342665A8B372044 /* YoutubeFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeFetcher.m; sourceTree = "<group>"; };
 		37E8193216DA4ED4005BD27C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +107,7 @@
 				03F51FF01533122900DD762C /* Paginator */,
 				03F51FA21532094E00DD762C /* FlickFetcher */,
 				03F51F791531E56500DD762C /* Supporting Files */,
+				330506C61D9ADCFDFEEFED0B /* YoutubeFetcher */,
 			);
 			path = NMPaginator;
 			sourceTree = "<group>";
@@ -132,8 +140,20 @@
 				03F51FAC1532104A00DD762C /* NMPaginator.m */,
 				03F51FA615320E5000DD762C /* FlickrPaginator.h */,
 				03F51FA715320E5000DD762C /* FlickrPaginator.m */,
+				330502E1422D722E5DDFD7F9 /* YoutubePaginator.h */,
+				330507C9E1CED17C69A6FAED /* YoutubePaginator.m */,
 			);
 			name = Paginator;
+			sourceTree = "<group>";
+		};
+		330506C61D9ADCFDFEEFED0B /* YoutubeFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				3305001AD195287D5A995B4D /* YoutubeAPIKey.h */,
+				330505CC75593A937E35FAD3 /* YoutubeFetcher.h */,
+				33050CDBB342665A8B372044 /* YoutubeFetcher.m */,
+			);
+			name = YoutubeFetcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +226,8 @@
 				03F51F9E153208F400DD762C /* FlickrFetcher.m in Sources */,
 				03F51FA815320E5000DD762C /* FlickrPaginator.m in Sources */,
 				03F51FAD1532104A00DD762C /* NMPaginator.m in Sources */,
+				330502AF9795A2C2C2E0C703 /* YoutubeFetcher.m in Sources */,
+				330509F6645D939DD656F2F3 /* YoutubePaginator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
