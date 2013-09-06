@@ -11,13 +11,16 @@
 		03F51F751531E56500DD762C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F51F741531E56500DD762C /* Foundation.framework */; };
 		03F51F771531E56500DD762C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F51F761531E56500DD762C /* CoreGraphics.framework */; };
 		03F51F7D1531E56500DD762C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03F51F7B1531E56500DD762C /* InfoPlist.strings */; };
-		03F51F7F1531E56500DD762C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51F7E1531E56500DD762C /* main.m */; };
-		03F51F831531E56500DD762C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51F821531E56500DD762C /* AppDelegate.m */; };
-		03F51F861531E56500DD762C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51F851531E56500DD762C /* ViewController.m */; };
 		03F51F891531E56500DD762C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F51F871531E56500DD762C /* ViewController.xib */; };
-		03F51F9E153208F400DD762C /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51F9D153208F400DD762C /* FlickrFetcher.m */; };
-		03F51FA815320E5000DD762C /* FlickrPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51FA715320E5000DD762C /* FlickrPaginator.m */; };
-		03F51FAD1532104A00DD762C /* NMPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F51FAC1532104A00DD762C /* NMPaginator.m */; };
+		3305005F4B4C4896AAAF97B7 /* NMPaginator-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33050FBE82349C0674401F15 /* NMPaginator-Info.plist */; };
+		330504FC9B19FB06787E3DA2 /* NMPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 330501CDD08E9E0BC8E56CBC /* NMPaginator.m */; };
+		3305059E79440D971BEF98FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 330507AFE10615DD03872081 /* ViewController.m */; };
+		330505A2ED18BF53D1CA6BD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33050828B7B5E5F46795758F /* main.m */; };
+		3305084289993477C9AF07FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33050E8320C064CEC9E211D5 /* AppDelegate.m */; };
+		33050898600D5F92B8FBF224 /* YoutubePaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 33050F3FBFC16DD6E4123295 /* YoutubePaginator.m */; };
+		3305089A5D2DF7E36D84B0E1 /* YoutubeFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 330502BFABD79512CFE17294 /* YoutubeFetcher.m */; };
+		33050A3E7BC3ACB8F78EAA55 /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 33050A36F7CFD9EDC37D0410 /* FlickrFetcher.m */; };
+		33050B28894ACCB84569AB99 /* FlickrPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3305008CF61F8B8CE025A91E /* FlickrPaginator.m */; };
 		37E8193316DA4ED4005BD27C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E8193216DA4ED4005BD27C /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
@@ -26,23 +29,27 @@
 		03F51F721531E56500DD762C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03F51F741531E56500DD762C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03F51F761531E56500DD762C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		03F51F7A1531E56500DD762C /* NMPaginator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NMPaginator-Info.plist"; sourceTree = "<group>"; };
 		03F51F7C1531E56500DD762C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		03F51F7E1531E56500DD762C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		03F51F801531E56500DD762C /* NMPaginator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NMPaginator-Prefix.pch"; sourceTree = "<group>"; };
-		03F51F811531E56500DD762C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		03F51F821531E56500DD762C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		03F51F841531E56500DD762C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		03F51F851531E56500DD762C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		03F51F881531E56500DD762C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		03F51F991531E86800DD762C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		03F51F9C153208F400DD762C /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
-		03F51F9D153208F400DD762C /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
-		03F51F9F1532093000DD762C /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
-		03F51FA615320E5000DD762C /* FlickrPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPaginator.h; sourceTree = "<group>"; };
-		03F51FA715320E5000DD762C /* FlickrPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPaginator.m; sourceTree = "<group>"; };
-		03F51FAB1532104A00DD762C /* NMPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMPaginator.h; sourceTree = "<group>"; };
-		03F51FAC1532104A00DD762C /* NMPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMPaginator.m; sourceTree = "<group>"; };
+		3305008CF61F8B8CE025A91E /* FlickrPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPaginator.m; sourceTree = "<group>"; };
+		33050141A54FD3D7CE3FC022 /* YoutubeAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeAPIKey.h; sourceTree = "<group>"; };
+		330501CDD08E9E0BC8E56CBC /* NMPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMPaginator.m; sourceTree = "<group>"; };
+		330501F562E6EFF8DA529C4A /* YoutubeFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeFetcher.h; sourceTree = "<group>"; };
+		33050237F262C836AF44A335 /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		330502BFABD79512CFE17294 /* YoutubeFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeFetcher.m; sourceTree = "<group>"; };
+		3305030CDAE9B2C640495D6F /* FlickrPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPaginator.h; sourceTree = "<group>"; };
+		330503F7F020E9B60E9DF407 /* YoutubePaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubePaginator.h; sourceTree = "<group>"; };
+		330506B91537C45265484FF6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Example/ViewController.h; sourceTree = "<group>"; };
+		330507AFE10615DD03872081 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Example/ViewController.m; sourceTree = "<group>"; };
+		33050828B7B5E5F46795758F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = "<group>"; };
+		330508344A5D46B70FFB3446 /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		33050850AF73C81453C0BCA0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Example/AppDelegate.h; sourceTree = "<group>"; };
+		33050A36F7CFD9EDC37D0410 /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		33050E8320C064CEC9E211D5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Example/AppDelegate.m; sourceTree = "<group>"; };
+		33050F04912E676561B6BA3B /* NMPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMPaginator.h; sourceTree = "<group>"; };
+		33050F3FBFC16DD6E4123295 /* YoutubePaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubePaginator.m; sourceTree = "<group>"; };
+		33050F6B177E42825A33A652 /* NMPaginator-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NMPaginator-Prefix.pch"; path = "Example/NMPaginator-Prefix.pch"; sourceTree = "<group>"; };
+		33050FBE82349C0674401F15 /* NMPaginator-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.info; name = "NMPaginator-Info.plist"; path = "Example/NMPaginator-Info.plist"; sourceTree = "<group>"; };
 		37E8193216DA4ED4005BD27C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				37E8193216DA4ED4005BD27C /* Default-568h@2x.png */,
-				03F51F991531E86800DD762C /* CoreData.framework */,
 				03F51F781531E56500DD762C /* NMPaginator */,
 				03F51F711531E56500DD762C /* Frameworks */,
 				03F51F6F1531E56500DD762C /* Products */,
@@ -92,14 +98,15 @@
 		03F51F781531E56500DD762C /* NMPaginator */ = {
 			isa = PBXGroup;
 			children = (
-				03F51F811531E56500DD762C /* AppDelegate.h */,
-				03F51F821531E56500DD762C /* AppDelegate.m */,
-				03F51F841531E56500DD762C /* ViewController.h */,
-				03F51F851531E56500DD762C /* ViewController.m */,
 				03F51F871531E56500DD762C /* ViewController.xib */,
-				03F51FF01533122900DD762C /* Paginator */,
-				03F51FA21532094E00DD762C /* FlickFetcher */,
 				03F51F791531E56500DD762C /* Supporting Files */,
+				33050850AF73C81453C0BCA0 /* AppDelegate.h */,
+				33050E8320C064CEC9E211D5 /* AppDelegate.m */,
+				330506B91537C45265484FF6 /* ViewController.h */,
+				330507AFE10615DD03872081 /* ViewController.m */,
+				3305080D7A429488562AA534 /* NMPaginator */,
+				3305071D9060AE748CEA00A0 /* Flickr */,
+				3305063172BF33771A7BF9DE /* Youtube */,
 			);
 			path = NMPaginator;
 			sourceTree = "<group>";
@@ -107,33 +114,47 @@
 		03F51F791531E56500DD762C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				03F51F7A1531E56500DD762C /* NMPaginator-Info.plist */,
 				03F51F7B1531E56500DD762C /* InfoPlist.strings */,
-				03F51F7E1531E56500DD762C /* main.m */,
-				03F51F801531E56500DD762C /* NMPaginator-Prefix.pch */,
+				33050828B7B5E5F46795758F /* main.m */,
+				33050FBE82349C0674401F15 /* NMPaginator-Info.plist */,
+				33050F6B177E42825A33A652 /* NMPaginator-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		03F51FA21532094E00DD762C /* FlickFetcher */ = {
+		3305063172BF33771A7BF9DE /* Youtube */ = {
 			isa = PBXGroup;
 			children = (
-				03F51F9F1532093000DD762C /* FlickrAPIKey.h */,
-				03F51F9C153208F400DD762C /* FlickrFetcher.h */,
-				03F51F9D153208F400DD762C /* FlickrFetcher.m */,
+				33050141A54FD3D7CE3FC022 /* YoutubeAPIKey.h */,
+				330501F562E6EFF8DA529C4A /* YoutubeFetcher.h */,
+				330502BFABD79512CFE17294 /* YoutubeFetcher.m */,
+				330503F7F020E9B60E9DF407 /* YoutubePaginator.h */,
+				33050F3FBFC16DD6E4123295 /* YoutubePaginator.m */,
 			);
-			name = FlickFetcher;
+			name = Youtube;
+			path = Example/Youtube;
 			sourceTree = "<group>";
 		};
-		03F51FF01533122900DD762C /* Paginator */ = {
+		3305071D9060AE748CEA00A0 /* Flickr */ = {
 			isa = PBXGroup;
 			children = (
-				03F51FAB1532104A00DD762C /* NMPaginator.h */,
-				03F51FAC1532104A00DD762C /* NMPaginator.m */,
-				03F51FA615320E5000DD762C /* FlickrPaginator.h */,
-				03F51FA715320E5000DD762C /* FlickrPaginator.m */,
+				33050237F262C836AF44A335 /* FlickrAPIKey.h */,
+				330508344A5D46B70FFB3446 /* FlickrFetcher.h */,
+				33050A36F7CFD9EDC37D0410 /* FlickrFetcher.m */,
+				3305030CDAE9B2C640495D6F /* FlickrPaginator.h */,
+				3305008CF61F8B8CE025A91E /* FlickrPaginator.m */,
 			);
-			name = Paginator;
+			name = Flickr;
+			path = Example/Flickr;
+			sourceTree = "<group>";
+		};
+		3305080D7A429488562AA534 /* NMPaginator */ = {
+			isa = PBXGroup;
+			children = (
+				33050F04912E676561B6BA3B /* NMPaginator.h */,
+				330501CDD08E9E0BC8E56CBC /* NMPaginator.m */,
+			);
+			path = NMPaginator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +211,7 @@
 				03F51F7D1531E56500DD762C /* InfoPlist.strings in Resources */,
 				03F51F891531E56500DD762C /* ViewController.xib in Resources */,
 				37E8193316DA4ED4005BD27C /* Default-568h@2x.png in Resources */,
+				3305005F4B4C4896AAAF97B7 /* NMPaginator-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,12 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03F51F7F1531E56500DD762C /* main.m in Sources */,
-				03F51F831531E56500DD762C /* AppDelegate.m in Sources */,
-				03F51F861531E56500DD762C /* ViewController.m in Sources */,
-				03F51F9E153208F400DD762C /* FlickrFetcher.m in Sources */,
-				03F51FA815320E5000DD762C /* FlickrPaginator.m in Sources */,
-				03F51FAD1532104A00DD762C /* NMPaginator.m in Sources */,
+				330505A2ED18BF53D1CA6BD9 /* main.m in Sources */,
+				3305084289993477C9AF07FB /* AppDelegate.m in Sources */,
+				3305059E79440D971BEF98FF /* ViewController.m in Sources */,
+				330504FC9B19FB06787E3DA2 /* NMPaginator.m in Sources */,
+				33050A3E7BC3ACB8F78EAA55 /* FlickrFetcher.m in Sources */,
+				33050B28894ACCB84569AB99 /* FlickrPaginator.m in Sources */,
+				3305089A5D2DF7E36D84B0E1 /* YoutubeFetcher.m in Sources */,
+				33050898600D5F92B8FBF224 /* YoutubePaginator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +312,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NMPaginator/NMPaginator-Prefix.pch";
-				INFOPLIST_FILE = "NMPaginator/NMPaginator-Info.plist";
+				GCC_PREFIX_HEADER = "NMPaginator/Example/NMPaginator-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NMPaginator/Example/NMPaginator-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -300,8 +324,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "NMPaginator/NMPaginator-Prefix.pch";
-				INFOPLIST_FILE = "NMPaginator/NMPaginator-Info.plist";
+				GCC_PREFIX_HEADER = "NMPaginator/Example/NMPaginator-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/NMPaginator/Example/NMPaginator-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
