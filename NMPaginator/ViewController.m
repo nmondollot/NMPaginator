@@ -39,7 +39,7 @@
 	[self setupTableViewFooter];
 
 	// set up the paginator
-	self.youtubePaginator = [[YoutubePaginator alloc] initWithPageSize:15 delegate:self];
+	self.youtubePaginator = [[YoutubePaginator alloc] initWithPageSize:15 delegate:self type:NMPaginatorPageToken];
 	[self.youtubePaginator fetchFirstPage];
 }
 

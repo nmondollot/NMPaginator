@@ -12,6 +12,6 @@
 
 @interface YoutubeFetcher : NSObject
 
-+ (NSDictionary *)videosWithChannelID:(NSString * const)channelId pageToken:(NSInteger *)pageToken pageSize:(NSInteger)pageSize;
++ (NSDictionary *)videosWithChannelID:(NSString * const)channelId pageToken:(NSString *)pageToken pageSize:(NSInteger)pageSize;
 
 @end

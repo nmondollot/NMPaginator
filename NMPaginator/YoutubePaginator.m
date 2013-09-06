@@ -15,7 +15,7 @@ static NSString *const kChannelId = @"UCARqCFEQ1qKsZTHLqMqYuDw";
 
 #pragma - Fetch Youtube Videos
 
-- (void)fetchResultsWithPage:(NSInteger *)pageToken pageSize:(NSInteger)pageSize
+- (void)fetchResultsWithPageToken:(NSString *)pageToken pageSize:(NSInteger)pageSize
 {
 	dispatch_queue_t fetchQ = dispatch_queue_create("Youtube fetcher", NULL);
 	dispatch_async(fetchQ, ^{
@@ -24,8 +24,9 @@ static NSString *const kChannelId = @"UCARqCFEQ1qKsZTHLqMqYuDw";
 		dispatch_sync(dispatch_get_main_queue(), ^{
 			NSArray *videos = jsonData[@"items"];
 			NSInteger total = [jsonData[@"pageInfo"][@"totalResults"] intValue];
+			NSString *token = jsonData[@"tokenPagination"][@"nextPageToken"];
 
-			[self receivedResults:videos total:total];
+			[self receivedResults:videos total:total pageToken:token];
 		});
 	});
 	dispatch_release(fetchQ);
