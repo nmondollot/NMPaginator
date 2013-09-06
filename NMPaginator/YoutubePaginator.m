@@ -24,7 +24,9 @@ static NSString *const kChannelId = @"UCARqCFEQ1qKsZTHLqMqYuDw";
 		dispatch_sync(dispatch_get_main_queue(), ^{
 			NSArray *videos = jsonData[@"items"];
 			NSInteger total = [jsonData[@"pageInfo"][@"totalResults"] intValue];
-			NSString *token = jsonData[@"tokenPagination"][@"nextPageToken"];
+			NSString *token = [NSString stringWithFormat:@"%@", jsonData[@"tokenPagination"][@"nextPageToken"]];
+			NSLog(@"[%@ %@] token %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd), token);
+
 
 			[self receivedResults:videos total:total pageToken:token];
 		});

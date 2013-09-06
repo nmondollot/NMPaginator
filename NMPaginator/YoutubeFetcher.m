@@ -16,7 +16,9 @@ static NSString *const kBaseURL = @"https://www.googleapis.com/youtube/v3";
 }
 + (NSDictionary *)videosWithChannelID:(NSString * const)channelId pageToken:(NSString *)pageToken pageSize:(NSInteger)pageSize
 {
-	NSString *requestURL = [NSString stringWithFormat:@"%@/search?part=snippet&type=video&order=date&maxResults=%u&page=%@&channelId=%@&key=%@", kBaseURL, pageSize, pageToken, channelId, YoutubeAPIKey];
+	NSLog(@"[%@ %@] pageToken %@", NSStringFromClass([self class]), NSStringFromSelector(_cmd), pageToken);
+
+	NSString *requestURL = [NSString stringWithFormat:@"%@/search?part=snippet&type=video&order=date&maxResults=%u&pageToken=%@&channelId=%@&key=%@", kBaseURL, pageSize, pageToken, channelId, YoutubeAPIKey];
 	return [self executeYoutubeFetch:requestURL];
 }
 
