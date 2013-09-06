@@ -9,7 +9,7 @@
 #import "YoutubePaginator.h"
 #import "YoutubeFetcher.h"
 
-static NSString *const kChannelId = @"UCARqCFEQ1qKsZTHLqMqYuDw";
+static NSString *const kChannelId = @"UCP7RrmoueENv9TZts3HXXtw"; //GitHub channel as example
 
 @implementation YoutubePaginator
 

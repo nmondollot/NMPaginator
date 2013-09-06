@@ -5,4 +5,4 @@
 // To change the template use AppCode | Preferences | File Templates.
 //
 
-#define YoutubeAPIKey @"AIzaSyDVEz3rCVXE6USVKuGgO1I7rA_yGjNMHHs"
+#define YoutubeAPIKey @""
