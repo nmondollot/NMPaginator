@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
     "CoreGraphics"
   ]
   s.source_files = "NMpaginator/NMpaginator.{m,h}"
-  s.requires_arc = false
+  s.requires_arc = true
 end
