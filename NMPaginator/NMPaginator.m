@@ -99,7 +99,8 @@
     self.total = total;
     self.requestStatus = RequestStatusDone;
     
-    [self.delegate paginator:self didReceiveResults:results];
+    if ([self.delegate respondsToSelector:@selector(paginator:didReceiveResults:)])
+        [self.delegate paginator:self didReceiveResults:results];
 }
 
 - (void)failed
