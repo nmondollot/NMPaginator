@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version = "1.0.0"
   s.summary = "NMPaginator is a simple Objective-C class that handles pagination for you."
   s.homepage = "https://github.com/nmondollot/NMPaginator"
-  s.license: {
+  s.license = {
     :type=>'Free',
     :text =>'              Do whatever you want with this piece of code (commercially or free). Attribution would be nice though.\n'
   }
