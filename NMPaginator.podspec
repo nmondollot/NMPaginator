@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   s.platforms = {
     "ios" => null
   }
-  s.frameworks => [
+  s.frameworks = [
     "Foundation",
     "UIKit",
     "CoreGraphics"
   ]
-  s.source_files => "NMpaginator/NMpaginator.{m,h}"
-  s.requires_arc => false
+  s.source_files = "NMpaginator/NMpaginator.{m,h}"
+  s.requires_arc = false
 end
