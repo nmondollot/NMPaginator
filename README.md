@@ -17,14 +17,14 @@ The demo project also includes a UITableView that automatically loads the next p
 
 ## How to install
 
-### With Cocoapods
+### With CocoaPods
 
 Add this to your Podfile:
 ```
 pod 'NMPaginator', '~> 1.0.0'
 ```
 
-For more information on how to set up Cocoapods, check out the [official site](http://cocoapods.org/#get_started).
+For more information on how to set up CocoaPods, check out the [official site](http://cocoapods.org/#get_started).
 
 ### Manually
 
