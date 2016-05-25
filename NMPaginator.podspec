@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     :git=> "https://github.com/nmondollot/NMPaginator.git",
     :tag=> "1.0.0"
   }
-  s.platforms    = :ios, '7.0'
+  s.platforms    = :ios
   s.frameworks   = [
     "Foundation",
     "UIKit",
